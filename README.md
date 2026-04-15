@@ -1,48 +1,57 @@
-# 🚀 AWS Serverless Notes API
+# 🚀 Notes App (Full Stack Cloud Project)
 
-This project is a serverless Notes API built using AWS.
-
-## 🔧 Tech Stack
-- AWS Lambda
-- API Gateway
-- DynamoDB
-
-## 📌 Features
-- Create note (POST)
-- Get notes (GET)
-- Delete note (DELETE)
-
-## 🌐 API Endpoint
-https://6phth3bmdc.execute-api.ap-south-1.amazonaws.com/dev/notes
-
-## 🧠 What I Learned
-- Serverless backend development
-- API Gateway integration
-- DynamoDB operations
-
-## 🚀 Live API
-
-GET:  
-https://6phth3bmdc.execute-api.ap-south-1.amazonaws.com/dev/notes  
-
-POST:  
-https://6phth3bmdc.execute-api.ap-south-1.amazonaws.com/dev/notes  
-
-DELETE:  
-https://6phth3bmdc.execute-api.ap-south-1.amazonaws.com/dev/notes/{id}  
+A full-stack Notes application built using AWS Serverless architecture and modern frontend technologies.
 
 ---
 
-## 🧪 How to Test
+## 🌍 Live Demo
+👉 https://aws-notes-api.vercel.app/
 
-Use Postman:
+---
 
-POST body:
-{
-  "note": "Test note"
-}
+## 🛠 Tech Stack
 
+### Frontend
+- React (Vite)
+- Tailwind CSS
+- JavaScript
 
-## 📸 Demo
+### Backend
+- AWS Lambda
+- API Gateway
 
-![Demo](screenshot.png)
+### Database
+- DynamoDB
+
+---
+
+## ✨ Features
+- Add Notes
+- View Notes
+- Delete Notes
+- Real-time updates
+- Responsive UI (Glassmorphism design)
+
+---
+
+## 📸 Screenshots
+![App Screenshot](./screenshot.png)
+
+---
+
+## ⚡ How it works
+Frontend (React) → API Gateway → AWS Lambda → DynamoDB
+
+---
+
+## 🧠 What I learned
+- Serverless architecture (AWS)
+- API integration with frontend
+- CORS handling
+- Deployment using Vercel
+- UI design using Tailwind CSS
+
+---
+
+## 👨‍💻 Author
+Mukul Kumar
