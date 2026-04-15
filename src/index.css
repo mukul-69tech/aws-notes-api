@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.6s ease-in-out;
+}

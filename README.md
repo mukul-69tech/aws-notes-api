@@ -11,16 +11,15 @@ A full-stack Notes application built using AWS Serverless architecture and moder
 
 ## 🛠 Tech Stack
 
-### Frontend
+Frontend:
 - React (Vite)
 - Tailwind CSS
-- JavaScript
 
-### Backend
+Backend:
 - AWS Lambda
 - API Gateway
 
-### Database
+Database:
 - DynamoDB
 
 ---
@@ -29,27 +28,6 @@ A full-stack Notes application built using AWS Serverless architecture and moder
 - Add Notes
 - View Notes
 - Delete Notes
-- Real-time updates
-- Responsive UI (Glassmorphism design)
-
----
-
-## 📸 Screenshots
-![App Screenshot](./screenshot.png)
-
----
-
-## ⚡ How it works
-Frontend (React) → API Gateway → AWS Lambda → DynamoDB
-
----
-
-## 🧠 What I learned
-- Serverless architecture (AWS)
-- API integration with frontend
-- CORS handling
-- Deployment using Vercel
-- UI design using Tailwind CSS
 
 ---
 
