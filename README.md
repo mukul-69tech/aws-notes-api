@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -14,3 +15,53 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+=======
+# 🚀 AWS Serverless Notes API
+
+This project is a serverless Notes API built using AWS.
+
+## 🔧 Tech Stack
+- AWS Lambda
+- API Gateway
+- DynamoDB
+
+## 📌 Features
+- Create note (POST)
+- Get notes (GET)
+- Delete note (DELETE)
+
+## 🌐 API Endpoint
+https://6phth3bmdc.execute-api.ap-south-1.amazonaws.com/dev/notes
+
+## 🧠 What I Learned
+- Serverless backend development
+- API Gateway integration
+- DynamoDB operations
+
+## 🚀 Live API
+
+GET:  
+https://6phth3bmdc.execute-api.ap-south-1.amazonaws.com/dev/notes  
+
+POST:  
+https://6phth3bmdc.execute-api.ap-south-1.amazonaws.com/dev/notes  
+
+DELETE:  
+https://6phth3bmdc.execute-api.ap-south-1.amazonaws.com/dev/notes/{id}  
+
+---
+
+## 🧪 How to Test
+
+Use Postman:
+
+POST body:
+{
+  "note": "Test note"
+}
+
+
+## 📸 Demo
+
+![Demo](screenshot.png)
+>>>>>>> a38d788cdaec5d10603663fc97d035f2f09dc0ef
