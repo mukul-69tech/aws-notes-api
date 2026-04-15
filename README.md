@@ -19,3 +19,30 @@ https://6phth3bmdc.execute-api.ap-south-1.amazonaws.com/dev/notes
 - Serverless backend development
 - API Gateway integration
 - DynamoDB operations
+
+## 🚀 Live API
+
+GET:  
+https://6phth3bmdc.execute-api.ap-south-1.amazonaws.com/dev/notes  
+
+POST:  
+https://6phth3bmdc.execute-api.ap-south-1.amazonaws.com/dev/notes  
+
+DELETE:  
+https://6phth3bmdc.execute-api.ap-south-1.amazonaws.com/dev/notes/{id}  
+
+---
+
+## 🧪 How to Test
+
+Use Postman:
+
+POST body:
+{
+  "note": "Test note"
+}
+
+
+## 📸 Demo
+
+![Demo](screenshot.png)
